@@ -10,6 +10,7 @@ import User from './components/User';
 import Home from './pages/Home';
 import About from './pages/About';
 import Userdetails from './components/Userdetails';
+import Contact from './components/Contact';
 
 
 
@@ -33,8 +34,11 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About/>,
+      },
+      {
+        path: "contact",
+        element: <Contact/>,
       }
-      
     ],
   },
 ]);
