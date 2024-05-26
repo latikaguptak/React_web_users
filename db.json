@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "222a",
+      "firstName": "Latika",
+      "lastName": "gUPTA",
+      "age": "23",
+      "email": "latikgupta007@gmail.com"
+    },
+    {
+      "id": "6ae8",
+      "firstName": "Amank",
+      "lastName": "gUPTA",
+      "age": "25",
+      "email": "amangupta@12345"
+    },
+    {
+      "id": "9cf0",
+      "firstName": "Mummy",
+      "lastName": "Papa",
+      "age": "34",
+      "email": "mummypapa@gmail.com"
+    }
+  ],
+  "contact": [
+    {
+      "id": "991d",
+      "username": "Latika Gupta",
+      "email": "latikgupta007@gmail.com",
+      "phoneNumber": "8077456183",
+      "gender": "female",
+      "password": "AMan@LAtika"
+    }
+  ]
+}

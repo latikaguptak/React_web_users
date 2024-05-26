@@ -1,9 +1,10 @@
 import { useState } from "react";
+import axios from "axios";
 const initialValue = {
   username: "",
   email: "",
   phoneNumber: "",
-
+  gender: "",
   password: "",
 };
 const Contact = () => {
@@ -15,9 +16,17 @@ const Contact = () => {
       [name]: value,
     });
   };
-  const handlerSubmit = (e) => {
+  const handlerSubmit = async(e) => {
     e.preventDefault();
     console.log("userdata", formData);
+    try{
+      const response = await axios.post("http://localhost:3000/contact", formData);
+      console.log(response.data);
+      setFormData(initialValue);
+    }
+    catch(error){
+      console.log(error);}
+  
   };
 
   return (
@@ -48,6 +57,15 @@ const Contact = () => {
             onChange={handlerChange}
             value={formData.phoneNumber}
           />
+          <label className="flex flex-col text-lg m-5  " >
+          Select gender
+          <select className="bg-white px-5  py-1" value={formData.gender} onChange={handlerChange} name="gender">
+            <option default>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value='other'>other</option>
+          </select>
+          </label>
 
           <input
             type="text"

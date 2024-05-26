@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Userdetails from './components/Userdetails';
 import Contact from './components/Contact';
+import Userform from './components/Userform';
 
 
 
@@ -38,7 +39,12 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact/>,
-      }
+      },
+      {
+        path: "user",
+        element: <Userform />,
+      },
+      
     ],
   },
 ]);
