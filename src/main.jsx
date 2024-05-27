@@ -12,6 +12,7 @@ import About from './pages/About';
 import Userdetails from './components/Userdetails';
 import Contact from './components/Contact';
 import Userform from './components/Userform';
+import Userdata from './components/Userdata';
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "user",
         element: <Userform />,
+      },
+      {
+        path: "user-data",
+        element: <Userdata/>
       },
       
     ],

@@ -41,6 +41,7 @@ const Userform = () => {
             type="text"
             placeholder="Enter your First name"
             name="firstName"
+            required
             onChange={handlerChange}
             value={formData.firstName}
           />
@@ -48,6 +49,7 @@ const Userform = () => {
             type="text"
             placeholder="Enter your Lastname"
             name="lastName"
+            required
             onChange={handlerChange}
             value={formData.lastName}
           />
@@ -55,6 +57,7 @@ const Userform = () => {
             type="email"
             placeholder="Enter your mail"
             name="email"
+            required
             onChange={handlerChange}
             value={formData.email}
           />
@@ -63,6 +66,7 @@ const Userform = () => {
             type="number"
             placeholder="Enter your Age"
             name="age"
+            required
             onChange={handlerChange}
             value={formData.age}
           />
