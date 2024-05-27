@@ -1,34 +1,5 @@
 {
-  "users": [
-    {
-      "id": "222a",
-      "firstName": "Latika",
-      "lastName": "gUPTA",
-      "age": "23",
-      "email": "latikgupta007@gmail.com"
-    },
-    {
-      "id": "6ae8",
-      "firstName": "Amank",
-      "lastName": "gUPTA",
-      "age": "25",
-      "email": "amangupta@12345"
-    },
-    {
-      "id": "9cf0",
-      "firstName": "Mummy",
-      "lastName": "Papa",
-      "age": "34",
-      "email": "mummypapa@gmail.com"
-    },
-    {
-      "id": "6747",
-      "firstName": "",
-      "lastName": "",
-      "age": "",
-      "email": ""
-    }
-  ],
+  "users": [],
   "contact": [
     {
       "id": "991d",
